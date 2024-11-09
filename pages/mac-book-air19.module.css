@@ -1,0 +1,230 @@
+.macbookAir17Child {
+  width: 1280px;
+  height: 686px;
+  position: relative;
+  background-color: rgba(235, 197, 197, 0.94);
+  display: none;
+  max-width: 100%;
+}
+.arrowBackIcon {
+  width: 37px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.arrowBackWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+}
+.homeIcon,
+.shoppingCartIcon {
+  height: 46px;
+  width: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.shoppingCartIcon {
+  width: 48px;
+  height: 48px;
+}
+.frameParent,
+.menu,
+.shoppingCartWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shoppingCartWrapper {
+  flex-direction: column;
+  padding: 2px 0 0;
+}
+.frameParent,
+.menu {
+  flex-direction: row;
+  gap: 19px;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameChild {
+  height: 61px;
+  width: 376px;
+  position: absolute;
+  margin: 0 !important;
+  top: 120px;
+  left: -68px;
+  z-index: 1;
+}
+.image8Icon {
+  height: 433px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 2;
+}
+.vectorParent {
+  flex-direction: row;
+  position: relative;
+}
+.frameGroup,
+.productDetailsParent,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productDetailsParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 50px;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 85px;
+  max-width: calc(100% - 320px);
+}
+.image10Icon {
+  height: 433px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.actionButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 12px;
+}
+.icon {
+  height: 25.1px;
+  width: 39.4px;
+  position: relative;
+  z-index: 1;
+}
+.iconWrapper {
+  width: 256px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 59px;
+  width: 271px;
+  position: relative;
+  background-color: rgba(107, 87, 87, 0.69);
+  display: none;
+}
+.addToCart {
+  position: relative;
+  font-weight: 800;
+  z-index: 2;
+}
+.rectangleParent {
+  background-color: rgba(107, 87, 87, 0.69);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 68px 15px 70px;
+  z-index: 1;
+}
+.cartButton {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 13.9px;
+}
+.actionBar,
+.cartButton,
+.content,
+.macbookAir17 {
+  display: flex;
+  justify-content: flex-start;
+}
+.actionBar {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 46px;
+}
+.content,
+.macbookAir17 {
+  box-sizing: border-box;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 9px;
+  gap: 21px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+.macbookAir17 {
+  width: 100%;
+  position: relative;
+  background-color: rgba(235, 197, 197, 0.94);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 9px 33px 34px 9px;
+  gap: 8px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 900px) {
+  .image8Icon,
+  .vectorParent {
+    flex: 1;
+  }
+  .productDetailsParent {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    gap: 42px;
+    max-width: 100%;
+  }
+  .actionBar {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .productDetailsParent {
+    gap: 25px;
+  }
+  .frameGroup {
+    gap: 21px;
+  }
+  .rectangleParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .actionBar {
+    gap: 23px;
+  }
+}

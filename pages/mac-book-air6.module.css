@@ -1,0 +1,564 @@
+.macbookAir6Child {
+  height: 686px;
+  width: 1280px;
+  position: relative;
+  background-color: #ebc5c5;
+  display: none;
+  max-width: 100%;
+}
+.arrowBackIcon {
+  height: 52px;
+  width: 37px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.selectABeauty {
+  position: relative;
+  font-weight: 900;
+  z-index: 1;
+}
+.questionhelp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #8e77a0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.blush {
+  text-decoration: none;
+  position: absolute;
+  top: 11px;
+  left: 73px;
+  color: inherit;
+  display: inline-block;
+  width: 64px;
+  height: 30px;
+  min-width: 64px;
+  z-index: 2;
+}
+.iconPair {
+  height: 64px;
+  flex: 1;
+  position: relative;
+}
+.iconPairChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #482d5d;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.lipstick {
+  text-decoration: none;
+  position: absolute;
+  top: 17px;
+  left: 63px;
+  color: inherit;
+  display: inline-block;
+  width: 89px;
+  height: 29px;
+  min-width: 89px;
+  z-index: 2;
+}
+.navigationSpacer,
+.productIcons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productIcons {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 44px;
+  color: #fff;
+}
+.navigationSpacer {
+  width: 476px;
+  flex-direction: column;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+  gap: 35px;
+  max-width: 100%;
+}
+.shadeLabelContainerChild {
+  height: 61px;
+  width: 376px;
+  position: absolute;
+  margin: 0 !important;
+  top: -32px;
+  right: -242px;
+  z-index: 1;
+}
+.selectAShade {
+  position: relative;
+  font-weight: 900;
+  z-index: 2;
+}
+.shadeLabelContainer,
+.shadeSelection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shadeLabelContainer {
+  position: relative;
+}
+.shadeSelection {
+  padding: 0 16px;
+}
+.optionElementChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.filterIcon {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 41px;
+  height: 25px;
+  object-fit: contain;
+  z-index: 2;
+}
+.myCoachingLog,
+.optionElement {
+  height: 36px;
+  width: 46px;
+  position: relative;
+}
+.myCoachingLog {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset, 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  background-color: rgba(185, 29, 83, 0.64);
+  border: 0 solid #000;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.selectionIndicator {
+  height: 22px;
+  width: 20px;
+  position: relative;
+  background-color: #8e77a0;
+  z-index: 1;
+}
+.selectedMarker {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 11px 0 15px;
+}
+.selectedOption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.optionCell,
+.optionItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.optionItem {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.optionCell {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 30px;
+}
+.selectFinish {
+  position: relative;
+  font-weight: 900;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.optionRow {
+  width: 182px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 38px;
+}
+.breadcrumbSeparator {
+  width: 46px;
+  height: 36px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #b52121;
+  z-index: 1;
+}
+.swatchContainer,
+.swatchPair {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.swatchContainer {
+  flex-direction: row;
+  padding: 0 13px;
+}
+.swatchPair {
+  flex-direction: column;
+  gap: 20px;
+}
+.swatchPairChild {
+  width: 46px;
+  height: 36px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #f37678;
+  z-index: 1;
+}
+.finishSwatches,
+.swatchPair1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.finishSwatches {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 6px 0 0;
+  gap: 45px;
+}
+.selectedSwatchChild {
+  width: 46px;
+  height: 36px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #79184a;
+  z-index: 1;
+}
+.finishOptions,
+.selectedSwatchMarker {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.selectedSwatchMarker {
+  justify-content: flex-start;
+  padding: 0 15px 0 11px;
+}
+.finishOptions {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.finishSelection,
+.navigationElement,
+.navigationPlaceholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.finishSelection {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 16px;
+  box-sizing: border-box;
+}
+.navigationElement,
+.navigationPlaceholder {
+  flex-direction: column;
+}
+.navigationPlaceholder {
+  align-self: stretch;
+  gap: 60px;
+}
+.navigationElement {
+  flex: 1;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.homeIcon {
+  align-self: stretch;
+  height: 46px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.homeButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.shoppingCartIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.footerIcons {
+  width: 183px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 21px;
+  box-sizing: border-box;
+}
+.foundation {
+  text-decoration: none;
+  position: absolute;
+  top: 17px;
+  left: 44px;
+  color: inherit;
+  display: inline-block;
+  width: 128px;
+  height: 29px;
+  min-width: 128px;
+  z-index: 2;
+}
+.foundationIcon {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+}
+.footerNavigation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.matteCheckmark,
+.myCoachingLog1 {
+  height: 36px;
+  width: 46px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #aa4718;
+  z-index: 1;
+}
+.matteCheckmark {
+  background-color: #de108b;
+}
+.matteCheckContainer,
+.matteRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+}
+.matteRow {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 1px;
+}
+.sheerItemChild {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  background-color: #8e77a0;
+  width: 20px;
+  height: 22px;
+  z-index: 1;
+}
+.checkIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 25px;
+  z-index: 2;
+}
+.sheerItem {
+  height: 26px;
+  width: 56px;
+  position: relative;
+}
+.sheerSelection {
+  width: 123px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.matteOptions {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.matteSelection {
+  width: 184px;
+  flex-direction: row;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+.footer,
+.matteSelection,
+.navigationCell,
+.navigationItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer {
+  width: 216px;
+  flex-direction: column;
+  gap: 157px;
+  color: #fff;
+}
+.navigationCell,
+.navigationItem {
+  gap: 21px;
+  max-width: 100%;
+}
+.navigationItem {
+  align-self: stretch;
+  flex-direction: row;
+}
+.navigationCell {
+  width: 740px;
+  flex-direction: column;
+}
+.dimage1Icon,
+.navigationRow {
+  align-self: stretch;
+  max-width: 100%;
+}
+.navigationRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.dimage1Icon {
+  height: 548px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.imageUploadedSuccessfully {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.imageUploadStatus {
+  flex-direction: column;
+  gap: 35px;
+  max-width: 100%;
+  margin-top: -630px;
+}
+.imageUploadStatus,
+.macbookAir6,
+.navigationColumn,
+.navigationContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationColumn {
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+}
+.macbookAir6,
+.navigationContainer {
+  box-sizing: border-box;
+}
+.navigationContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: 17px 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+.macbookAir6 {
+  width: 100%;
+  height: 686px;
+  position: relative;
+  background-color: #ebc5c5;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 12px 23px 26px;
+  gap: 22px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 850px) {
+  .navigationContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 675px) {
+  .productIcons {
+    gap: 22px;
+  }
+  .navigationSpacer {
+    gap: 17px;
+  }
+  .finishOptions {
+    flex-wrap: wrap;
+  }
+  .navigationPlaceholder {
+    gap: 30px;
+  }
+  .footer {
+    flex: 1;
+  }
+  .navigationItem {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blush,
+  .lipstick,
+  .selectABeauty {
+    font-size: 19px;
+  }
+  .productIcons {
+    flex-wrap: wrap;
+  }
+  .foundation,
+  .imageUploadedSuccessfully,
+  .selectAShade,
+  .selectFinish {
+    font-size: 19px;
+  }
+  .imageUploadStatus {
+    gap: 17px;
+  }
+}

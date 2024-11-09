@@ -1,0 +1,136 @@
+.icon {
+  height: 25.1px;
+  width: 39.4px;
+  position: relative;
+  z-index: 1;
+}
+.imageIcon {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.viewImageChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 275px;
+  cursor: pointer;
+  z-index: 1;
+}
+.viewImageIn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-weight: 800;
+  display: inline-block;
+  width: 204px;
+  height: 29px;
+  z-index: 2;
+}
+.viewImage {
+  height: 59px;
+  flex: 1;
+  position: relative;
+  min-width: 190px;
+}
+.addToCart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(107, 87, 87, 0.69);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.tryANew {
+  position: absolute;
+  top: 15px;
+  left: 34px;
+  font-weight: 800;
+  display: inline-block;
+  width: 197px;
+  height: 30px;
+  z-index: 2;
+}
+.cartButton {
+  height: 59px;
+  width: 283px;
+  position: relative;
+}
+.tryANew1 {
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  font-weight: 800;
+  display: inline-block;
+  width: 215px;
+  height: 29px;
+  z-index: 2;
+}
+.cartButton1,
+.cartButtonItem {
+  height: 59px;
+  width: 271px;
+  position: relative;
+}
+.cartButtonItem {
+  background-color: rgba(107, 87, 87, 0.69);
+  display: none;
+}
+.addToCart1 {
+  position: relative;
+  font-weight: 800;
+  z-index: 2;
+}
+.actions,
+.cartButton2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cartButton2 {
+  background-color: rgba(107, 87, 87, 0.69);
+  justify-content: flex-start;
+  padding: 15px 68px 15px 70px;
+  z-index: 1;
+}
+.actions {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 2px 0 0;
+  gap: 32px;
+}
+.imageAction {
+  position: absolute;
+  top: 540px;
+  left: 18px;
+  width: 1216px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 27.9px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 973px) {
+  .actions {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .viewImageIn {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,131 @@
+.matteLargeIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #482d5d;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.matte {
+  position: absolute;
+  top: 17px;
+  left: 68px;
+  display: inline-block;
+  width: 68px;
+  height: 29px;
+  min-width: 68px;
+  z-index: 2;
+}
+.matteLargeIconParent {
+  height: 64px;
+  width: 216px;
+  position: relative;
+}
+.sheerLargeIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #8e77a0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.sheer {
+  position: absolute;
+  top: 17px;
+  left: 77px;
+  display: inline-block;
+  width: 68px;
+  height: 29px;
+  min-width: 68px;
+  z-index: 2;
+}
+.sheerLargeIconParent {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nextButtonBackground {
+  height: 37px;
+  flex: 1;
+  position: relative;
+  background-color: rgba(207, 88, 104, 0.64);
+  cursor: pointer;
+  z-index: 1;
+}
+.next {
+  position: relative;
+  font-weight: 800;
+  z-index: 2;
+}
+.nextButtonBackgroundParent,
+.nextWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nextWrapper {
+  flex-direction: column;
+  padding: 4px 0 0;
+  margin-left: -88px;
+}
+.nextButtonBackgroundParent {
+  width: 112px;
+  flex-direction: row;
+  padding: 0 32px 0 0;
+  box-sizing: border-box;
+}
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 384px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 56px;
+}
+.frameParent {
+  height: 177px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 675px) {
+  .frameGroup {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .matte,
+  .next,
+  .sheer {
+    font-size: 19px;
+  }
+  .frameGroup {
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+}

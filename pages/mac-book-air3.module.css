@@ -1,0 +1,248 @@
+.macbookAir3Child {
+  height: 686px;
+  width: 1280px;
+  position: relative;
+  background-color: #ebc5c5;
+  display: none;
+  max-width: 100%;
+}
+.arrowBackIcon,
+.homeIcon {
+  height: 52px;
+  width: 37px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.homeIcon {
+  width: 60px;
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.foundationIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #8e77a0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.foundation {
+  text-decoration: none;
+  position: absolute;
+  top: 17px;
+  left: 44px;
+  color: inherit;
+  display: inline-block;
+  width: 128px;
+  height: 29px;
+  min-width: 128px;
+  z-index: 2;
+}
+.foundationIconParent {
+  height: 64px;
+  flex: 1;
+  position: relative;
+}
+.frameDiv,
+.homeParent {
+  align-self: stretch;
+  display: flex;
+}
+.frameDiv {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 4px 0 0;
+}
+.homeParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.matteDivider,
+.matteSmallIcon {
+  height: 36px;
+  width: 46px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #aa4718;
+  z-index: 1;
+}
+.matteDivider {
+  background-color: #de108b;
+}
+.matteDividerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+}
+.matteSmallIconParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sheerSmallIcon {
+  height: 22px;
+  width: 20px;
+  position: relative;
+  background-color: #8e77a0;
+  z-index: 1;
+}
+.sheerSmallIconParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameParent1,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 13px 0 7px;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 15px;
+}
+.navigationBarInner {
+  width: 185px;
+  flex-direction: row;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+.frameContainer,
+.frameGroup,
+.navigationBar,
+.navigationBarInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationBar {
+  width: 220px;
+  flex-direction: column;
+  gap: 157px;
+}
+.frameContainer,
+.frameGroup {
+  gap: 21px;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameGroup {
+  width: 740px;
+  flex-direction: column;
+}
+.dimage1Icon,
+.frameWrapper {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.dimage1Icon {
+  height: 548px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.imageUploadedSuccessfully {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.imageConfirmation {
+  flex-direction: column;
+  gap: 35px;
+  max-width: 100%;
+  margin-top: -630px;
+  color: #000;
+}
+.frameParent,
+.imageConfirmation,
+.macbookAir3,
+.macbookAir3Inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+}
+.macbookAir3,
+.macbookAir3Inner {
+  box-sizing: border-box;
+}
+.macbookAir3Inner {
+  flex: 1;
+  flex-direction: column;
+  padding: 9px 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+.macbookAir3 {
+  width: 100%;
+  height: 686px;
+  position: relative;
+  background-color: #ebc5c5;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 12px 23px 26px;
+  gap: 22px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 850px) {
+  .macbookAir3Inner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 675px) {
+  .navigationBar {
+    flex: 1;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .foundation,
+  .imageUploadedSuccessfully {
+    font-size: 19px;
+  }
+  .imageConfirmation {
+    gap: 17px;
+  }
+}

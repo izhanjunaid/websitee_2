@@ -1,0 +1,133 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.viewImageIn {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-weight: 800;
+  display: inline-block;
+  width: 203px;
+  height: 29px;
+  z-index: 2;
+}
+.vectorParent {
+  height: 59px;
+  width: 241px;
+  position: relative;
+}
+.buttonShapes {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(107, 87, 87, 0.69);
+  width: 250px;
+  cursor: pointer;
+  z-index: 1;
+}
+.tryANew {
+  position: absolute;
+  top: 15px;
+  left: 27px;
+  font-weight: 800;
+  display: inline-block;
+  width: 197px;
+  height: 30px;
+  z-index: 2;
+}
+.actionButtons {
+  height: 59px;
+  width: 269px;
+  position: relative;
+}
+.actionButtonsChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(107, 87, 87, 0.69);
+  width: 300px;
+  cursor: pointer;
+  z-index: 1;
+}
+.tryANew1 {
+  position: absolute;
+  top: 15px;
+  left: 45px;
+  font-weight: 800;
+  display: inline-block;
+  width: 215px;
+  height: 29px;
+  z-index: 2;
+}
+.actionButtons1 {
+  height: 59px;
+  flex: 1;
+  position: relative;
+  min-width: 228px;
+  max-width: 100%;
+}
+.actionButtonsItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(107, 87, 87, 0.69);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.addToCart {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  font-weight: 800;
+  display: inline-block;
+  width: 133px;
+  height: 29px;
+  z-index: 2;
+}
+.actionButtons2 {
+  height: 59px;
+  width: 271px;
+  position: relative;
+}
+.actionContainer,
+.actionContainerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.actionContainer {
+  flex: 1;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 23px;
+}
+.actionContainerWrapper {
+  width: 1219px;
+  padding: 0 9px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .tryANew,
+  .tryANew1,
+  .viewImageIn {
+    font-size: 19px;
+  }
+}

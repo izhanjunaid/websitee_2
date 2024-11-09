@@ -1,0 +1,151 @@
+.itemSelected {
+  font-weight: 800;
+}
+.lipstick {
+  font-weight: 500;
+}
+.itemSelectedLipstickContainer {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.pinkpie,
+.shade {
+  position: relative;
+  z-index: 1;
+}
+.shade {
+  font-weight: 800;
+  display: inline-block;
+  min-width: 85px;
+}
+.pinkpie {
+  font-weight: 500;
+}
+.shadeName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 33px;
+}
+.div {
+  height: 36px;
+  width: 46px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset, 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  background-color: rgba(185, 29, 83, 0.64);
+  border: 0 solid #000;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.colorPicker,
+.shadeSelection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.colorPicker {
+  flex-direction: row;
+  padding: 0 1px;
+}
+.shadeSelection {
+  flex-direction: column;
+  gap: 31px;
+}
+.productDetails {
+  margin: 0;
+  font-weight: 800;
+}
+.matteFinish {
+  margin: 0;
+}
+.productDetailsMatteContainer {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.productDetailsMatteFinishWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 1px;
+}
+.productDetailsMatteFinishWrapper,
+.shadeInfo,
+.shadeSelectionParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shadeSelectionParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 33px;
+}
+.shadeInfo {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1px 0 4px;
+}
+.itemDetails,
+.itemDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.itemDetails {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.itemDetailsWrapper {
+  width: 266px;
+  justify-content: flex-end;
+  padding: 0 0 16px;
+  box-sizing: border-box;
+}
+.image9 {
+  height: 433px;
+  width: 285px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.productDisplay {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 17px 0 0;
+  box-sizing: border-box;
+  gap: 21px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .image9,
+  .itemDetailsWrapper {
+    flex: 1;
+  }
+  .productDisplay {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .itemSelectedLipstickContainer,
+  .pinkpie,
+  .productDetailsMatteContainer,
+  .shade {
+    font-size: 19px;
+  }
+  .shadeSelectionParent {
+    gap: 16px;
+  }
+  .itemDetails {
+    gap: 22px;
+  }
+}

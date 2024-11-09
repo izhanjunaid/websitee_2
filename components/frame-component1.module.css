@@ -1,0 +1,364 @@
+.selectABeauty {
+  position: relative;
+  font-weight: 900;
+  z-index: 1;
+}
+.makeupTypeIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #8e77a0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.blush {
+  text-decoration: none;
+  position: absolute;
+  top: 11px;
+  left: 73px;
+  color: inherit;
+  display: inline-block;
+  width: 64px;
+  height: 30px;
+  min-width: 64px;
+  z-index: 2;
+}
+.makeupTypeIconParent {
+  height: 64px;
+  flex: 1;
+  position: relative;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #482d5d;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.lipstick {
+  text-decoration: none;
+  position: absolute;
+  top: 17px;
+  left: 63px;
+  color: inherit;
+  display: inline-block;
+  width: 89px;
+  height: 29px;
+  min-width: 89px;
+  z-index: 2;
+}
+.frameGroup,
+.selectABeautyProductsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 44px;
+  color: #fff;
+}
+.selectABeautyProductsParent {
+  width: 476px;
+  flex-direction: column;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+  gap: 35px;
+  max-width: 100%;
+}
+.frameItem {
+  height: 61px;
+  width: 376px;
+  position: absolute;
+  margin: 0 !important;
+  top: -32px;
+  right: -242px;
+  z-index: 1;
+}
+.selectAShade {
+  position: relative;
+  font-weight: 900;
+  z-index: 2;
+}
+.shadeSelectionPrompt,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent {
+  position: relative;
+}
+.shadeSelectionPrompt {
+  padding: 0 16px;
+}
+.matteIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 46px;
+  height: 36px;
+  z-index: 1;
+}
+.optionDividerIcon {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 41px;
+  height: 25px;
+  object-fit: contain;
+  z-index: 2;
+}
+.matteIconParent,
+.sheerIcon {
+  height: 36px;
+  width: 61px;
+  position: relative;
+}
+.sheerIcon {
+  width: 46px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset, 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  background-color: rgba(185, 29, 83, 0.64);
+  border: 0 solid #000;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.sheerIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px 0 0;
+}
+.finishOptionIcon,
+.finishOptionIcon1 {
+  height: 36px;
+  width: 46px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #b52121;
+  z-index: 1;
+}
+.finishOptionIcon1 {
+  background-color: #f37678;
+}
+.frameParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.matteCheckbox {
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  background-color: #8e77a0;
+  width: 20px;
+  height: 22px;
+  z-index: 1;
+}
+.checkIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.matteCheckboxInner {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+}
+.matteCheckboxContainer {
+  width: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1px;
+  box-sizing: border-box;
+}
+.sheerCheckbox {
+  width: 20px;
+  height: 22px;
+  position: relative;
+  background-color: #8e77a0;
+  z-index: 1;
+}
+.sheerCheckboxWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 17px 1px 0;
+}
+.frameInner {
+  height: 22px;
+  width: 20px;
+  position: relative;
+  background-color: #8e77a0;
+  z-index: 1;
+}
+.matteCheckboxContainerParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper2 {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 11px;
+  box-sizing: border-box;
+}
+.frameParent2,
+.frameWrapper1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 19px;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 30px;
+  box-sizing: border-box;
+}
+.selectFinish {
+  position: relative;
+  font-weight: 900;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.frameParent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 37px;
+  max-width: 100%;
+}
+.addButton {
+  width: 46px;
+  height: 36px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #79184a;
+  z-index: 1;
+}
+.addButtonBackground,
+.addButtonParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addButtonBackground {
+  flex-direction: row;
+  padding: 0 15px 0 11px;
+}
+.addButtonParent {
+  flex-direction: column;
+  gap: 20px;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: row;
+  gap: 62px;
+}
+.frameContainer,
+.frameDiv,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 16px;
+  box-sizing: border-box;
+}
+.frameParent,
+.frameWrapper {
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 60px;
+}
+.frameWrapper {
+  flex: 1;
+  padding: 9px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 675px) {
+  .frameGroup {
+    gap: 22px;
+  }
+  .selectABeautyProductsParent {
+    gap: 17px;
+  }
+  .frameDiv {
+    gap: 31px;
+  }
+  .frameParent {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blush,
+  .lipstick,
+  .selectABeauty {
+    font-size: 19px;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .selectAShade {
+    font-size: 19px;
+  }
+  .frameParent3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .selectFinish {
+    font-size: 19px;
+  }
+  .frameParent1 {
+    gap: 18px;
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,69 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(107, 87, 87, 0.69);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.viewCart {
+  position: absolute;
+  top: 16px;
+  left: 59px;
+  font-weight: 800;
+  display: inline-block;
+  width: 125px;
+  height: 29px;
+  min-width: 125px;
+  z-index: 2;
+}
+.rectangleParent {
+  height: 59px;
+  width: 300px;
+  position: relative;
+}
+.clickHereTo {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+  font-weight: 800;
+  display: inline-block;
+  width: 248px;
+  height: 29px;
+  z-index: 2;
+}
+.rectangleGroup {
+  align-self: stretch;
+  height: 59px;
+  position: relative;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  width: 271px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1218px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 725px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
